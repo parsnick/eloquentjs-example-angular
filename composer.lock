@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "ea1fee525914154e6d6bbf071697b5a1",
-    "content-hash": "8b1485987e7c5949da82435d403e52e8",
+    "hash": "e5d206c65195edd5e2f1281271f7bbf1",
+    "content-hash": "c6a3f5d57be715b2f032c686be9e4ad0",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -784,6 +784,39 @@
                 "random"
             ],
             "time": "2016-02-06 03:52:05"
+        },
+        {
+            "name": "parsnick/eloquentjs",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/parsnick/eloquentjs.git",
+                "reference": "415ac4dde962fcca97d55b3434e4b1f204a2570c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/parsnick/eloquentjs/zipball/415ac4dde962fcca97d55b3434e4b1f204a2570c",
+                "reference": "415ac4dde962fcca97d55b3434e4b1f204a2570c",
+                "shasum": ""
+            },
+            "require-dev": {
+                "fzaninotto/faker": "^1.5",
+                "orchestra/testbench": "~3.2",
+                "parsnick/steak": "dev-master",
+                "phpspec/phpspec": "^2.4",
+                "phpunit/phpunit": "^5.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "EloquentJs\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "time": "2016-02-17 00:35:51"
         },
         {
             "name": "psr/log",
@@ -3005,7 +3038,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "parsnick/eloquentjs": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {

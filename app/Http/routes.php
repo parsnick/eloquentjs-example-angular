@@ -27,5 +27,8 @@ Route::get('/', function () {
 */
 
 Route::group(['middleware' => ['web']], function () {
-    //
+
+    Route::eloquent('api/posts', 'App\Post');
+    Route::eloquent('api/comments', 'App\Comment');
+
 });

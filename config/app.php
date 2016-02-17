@@ -148,6 +148,8 @@ return [
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
 
+        EloquentJs\EloquentJsServiceProvider::class,
+
         /*
          * Application Service Providers...
          */
